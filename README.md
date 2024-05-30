@@ -34,3 +34,30 @@ https://medium.com/@yanhann10/drawing-waves-with-p5-js-444f447bdc39
 
 ### Example 3:
 ![High Quality Image 3](Images/Example_3.jpg)
+
+## Enhancements and Modifications
+
+My animation is achieved through continuous drawing, Perlin noise, and random values to produce organic, flowing visuals. Key elements include:
+
+1. **Continuous Drawing Loop**:
+   - The `loop()` function in `setup()` allows `draw()` to run continuously, creating real-time animations.
+
+2. **Perlin Noise and Random Values**:
+   - `noiseOffset` is used to generate smooth, non-repetitive motion in the animations. This creates natural-looking wave effects and randomness in shapes.
+
+3. **Wavy Line Fills**:
+   - The `fillShapeWithWavyLines()` and `fillShapeWithVerticalWavyLines()` functions fill shapes with dynamic wavy lines. These lines are animated using Perlin noise to vary their heights and widths, simulating ripples of water and shimmering building surfaces.
+
+4. **Consistent Randomness**:
+   - A fixed random seed (`randomSeed(42)`) ensures that the animations are consistent across different runs, providing reproducibility.
+
+### References
+
+- [p5.js Reference](https://p5js.org/reference/#/p5/noise)
+- IDEA9103 Week 10 Tutorial and Quiz
+
+
+
+
+
+
