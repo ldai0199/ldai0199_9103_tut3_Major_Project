@@ -24,13 +24,19 @@ I've chosen to animate my group's code using **Perlin noise** due to its creativ
 I've chosen Perlin noise because of its potential to simulate waves and reflections on water surfaces, which I thought would be ideal for bringing life to the picture, considering that half of the image comprises water. Since Perlin noise is typically used to generate smoothly varying values that can simulate natural phenomena, such as waves or organic patterns, I believed that incorporating it into the positions of the lines could help create an animated effect that mimics the behavior of natural elements and infrastructures. 
 
 ### Animated Properties and Uniqueness
-In my implementation, I animate the positions of the lines that fill the river and buildings using Perlin noise. This approach creates the illusion of moving waves and shimmering reflections of buildings. My animation is distinct from other group members' work in the following ways:
+In my implementation, I animate the positions of the lines that fill the river and buildings using Perlin noise. This approach creates the illusion of moving waves and shimmering reflections of buildings. As for my group memebers:
+
+- ***Nicholas*** uses mouse movement to incorporate interactivity. As the mouse moves across the page, the colors change to simulate the transition from day to night, creating a dynamic and immersive experience.
+
+- ***Joyya*** employs the millis() function to time events and animations. Her approach synchronizes the movement of buildings and the ocean over time, offering a cohesive and rhythmic visual presentation.
+
+In contrast, my animation focuses on the continuous, natural motion of the lines using Perlin noise. How I acheive this is as follows (You can find examples of images that influence my inspiration below.):
 
 - River Waves: I animate the horizontal lines within the river using Perlin noise to simulate gentle, flowing waves.
  
 - Building Reflections: I animate the vertical lines within the buildings using Perlin noise to create a shimmering effect, resembling sunlight reflecting off the surfaces. 
   
-By focusing on these specific elements, my animation brings a unique touch to the overall group project, enhancing the visual experience with dynamic and natural movements.(You can find examples of images that influence my inspiration below)
+
 
 ### Example 1:
 ![High Quality Image 1](Images/Example_1.jpg) 
