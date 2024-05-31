@@ -28,7 +28,7 @@ In my implementation, I animate the positions of the lines that fill the river a
 
 - ***Nicholas*** uses mouse movement to incorporate interactivity. As the mouse moves across the page, the colors change to simulate the transition from day to night, creating a dynamic and immersive experience.
 
-- ***Joyya*** employs the millis() function to time events and animations. Her approach synchronizes the movement of buildings and the ocean over time, offering a cohesive and rhythmic visual presentation.
+- ***Joyya*** uses the millis() function to animate the sky shapes, river, and reflections, making them rotate and move at different frequencies. This approach creates a synchronized yet dynamic visual experience.
 
 In contrast, my animation focuses on the continuous, natural motion of the lines using Perlin noise. How I acheive this is as follows (You can find examples of images that influence my inspiration below.):
 
